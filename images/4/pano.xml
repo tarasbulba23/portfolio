@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama hideabout="1" id="node1">
+    <input levelingpitch="0" leveltileurl="tiles/cam1_RGB_color/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" height="1000" width="1000" levelingroll="0" leveltilesize="510" overlap="1" levelbias="0.400">
+      <level preload="0" height="1000" width="1000" predecode="0"/>
+      <level preload="1" height="500" width="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="25" pan="0"/>
+      <max tilt="90" fov="85" pan="360"/>
+    </view>
+    <userdata tags="cam1" copyright="" author="Dmytro Hereha" info="" source="" comment="" latitude="" title="Loft" description="" datetime="2016:06:21 11:29:10" longitude=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" enabled="1" border="1" height="20" wordwrap="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundalpha="1" borderalpha="1" borderradius="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+      <hotspot skinid="ht_node" url="{node2}" tilt="-5.15" id="Point01" title="Camera2" pan="-43.55" target="-54.404/-28.0943/70" description=""/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" blendcolor="0x000000" enabled="0" type="crossdissolve" zoomfov="20" softedge="0" zoomin="0" blendtime="1" zoomoutpause="1" zoomspeed="2"/>
+    <autorotate speed="0.400" noderandom="1" startloaded="1" nodedelay="0.00" returntohorizon="0.000" delay="5.00" useanimation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" hideabout="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedwheel="1" lockedkeyboard="1" invertcontrol="1" simulatemass="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node2">
+    <input levelingpitch="0" leveltileurl="tiles/cam2_RGB_color/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" height="500" width="500" levelingroll="0" leveltilesize="510" overlap="1" levelbias="0.400">
+      <level preload="1" height="500" width="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-90" fov="35" pan="0"/>
+      <max tilt="90" fov="95" pan="360"/>
+    </view>
+    <userdata tags="cam2" copyright="" author="Dmytro Hereha" info="" source="" comment="" latitude="" title="Loft_cam2" description="" datetime="2016:06:21 11:34:37" longitude=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" enabled="1" border="1" height="20" wordwrap="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundalpha="1" borderalpha="1" borderradius="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+      <hotspot skinid="ht_node" url="{node1}" tilt="-5.72" id="Point01" title="Camera1" pan="25.65" target="-1.74425/-15.998/70" description=""/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" blendcolor="0x000000" enabled="0" type="crossdissolve" zoomfov="20" softedge="0" zoomin="0" blendtime="1" zoomoutpause="1" zoomspeed="2"/>
+    <autorotate speed="0.400" noderandom="1" startloaded="1" nodedelay="0.00" returntohorizon="0.000" delay="5.00" useanimation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" hideabout="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedwheel="1" lockedkeyboard="1" invertcontrol="1" simulatemass="1"/>
+  </panorama>
+</tour>
